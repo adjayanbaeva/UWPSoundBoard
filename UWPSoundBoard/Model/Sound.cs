@@ -5,7 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace UWPSoundBoard.Model
-{
+{  
+    public enum SoundCategory
+        {
+            Animals,
+            Cartoons,
+            Taunts,
+            Warnings
+        }
     public class Sound
     {
         public string Name { get; set; }
@@ -13,13 +20,7 @@ namespace UWPSoundBoard.Model
         public string AudioFile { get; set; }
         public string ImageFile { get; set; }
 
-        public enum SoundCategory
-        {
-            Animals,
-            Cartoons,
-            Taunts,
-            Warnings
-        }
+      
 
         //Constructor
         public Sound(string name, SoundCategory category)
