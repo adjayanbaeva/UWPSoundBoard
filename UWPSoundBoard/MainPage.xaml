@@ -13,6 +13,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <RelativePanel>
+            <Button Content="&#xE700;"
+                    Name="HamburgerButton"
+                    FontFamily="Segoe MDL2 Assets"
+                    Click="HamburgerButton_Click"
+                    RelativePanel.AlignLeftWithPanel="True"/>
+
+        </RelativePanel>
 
     </Grid>
 </Page>
