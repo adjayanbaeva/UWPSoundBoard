@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace UWPSoundBoard.Model
 {
     public class SoundManager
     {
-        public List<Sound> getSounds()
+        public static List<Sound> getSounds()
         {
             var sounds = new List<Sound>();
             sounds.Add(new Sound("Cow", SoundCategory.Animals));
@@ -24,6 +25,14 @@ namespace UWPSoundBoard.Model
             sounds.Add(new Sound("Siren", SoundCategory.Warnings));
 
             return sounds;
+        }
+
+        public static void GetAllSounds(ObservableCollection<Sound> sounds)
+        {
+            var allSounds = getSounds();
+            sounds.Clear();
+            allSounds.ForEach(s => sounds.Add(s)); 
+
         }
     }
 }
