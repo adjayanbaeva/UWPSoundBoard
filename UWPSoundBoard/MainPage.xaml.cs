@@ -36,5 +36,15 @@ namespace UWPSoundBoard
         {
 
         }
+
+        private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }
