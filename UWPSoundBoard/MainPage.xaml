@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    xmlns:data="using:UWPSoundBoard.Model"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
@@ -32,7 +33,7 @@
             <SplitView.Pane>
                 <ListView Name="MenuItemsListView"
                           IsItemClickEnabled="True"
-                          ItemClick="MenuItemsListView_Click"/>
+                          ItemClick="MenuItemsListView_ItemClick"/>
             </SplitView.Pane>
             <SplitView.Content>
                 <Grid Margin="20,20,0,0">
@@ -49,10 +50,16 @@
                               Name="SoundGridView"
                               SelectionMode="None"
                               IsItemClickEnabled="True"
-                              
+                              ItemsSource="{x:Bind sounds}"
                               ItemClick="SoundGridView_ItemClick">
-                                         
+                        <GridView.ItemTemplate>
+                            <DataTemplate x:DataType="data:Sound">
+                                <Image Name="MyImage" Height="112" Width="101" Source="{x:Bind ImageFile}"/>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                                       
                     </GridView>
+                    
 
                 </Grid>
             </SplitView.Content>
