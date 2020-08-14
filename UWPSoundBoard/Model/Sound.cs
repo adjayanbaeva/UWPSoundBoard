@@ -27,8 +27,8 @@ namespace UWPSoundBoard.Model
         {
             Name = name;
             Category = category;
-            AudioFile = $"/Assets/Audio/{category}/{name}.wav";
-            ImageFile = $"/Assets/Images/{category}/{name}.png";
+            AudioFile = $"Assets/Audio/{category}/{name}.wav";
+            ImageFile = $"Assets/Images/{category}/{name}.png";
 
         }
     }

@@ -26,7 +26,7 @@
                                             
                     RelativePanel.RightOf="HamburgerButton"/>
         </RelativePanel>
-        <SplitView x:ConnectionId='2' Name="MySplitView"
+        <SplitView x:ConnectionId='2' Grid.Row="1" Name="MySplitView" 
                    DisplayMode="CompactOverlay"
                    CompactPaneLength="45"
                    OpenPaneLength="200">
@@ -54,7 +54,7 @@
                                                                  >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='8' Name="MyImage" Height="112" Width="101"                            />
+                                <Image x:ConnectionId='8' Name="MyImage" Height="112" Width="101"                             />
                             </DataTemplate>
                         </GridView.ItemTemplate>
                                        
