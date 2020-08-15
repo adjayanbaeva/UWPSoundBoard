@@ -31,6 +31,7 @@ namespace UWPSoundBoard
             this.InitializeComponent();
             sounds = new ObservableCollection<Sound>();
             SoundManager.GetAllSounds(sounds);
+            menuItems = new List<MenuItem>();
 
             //Load the pane
             menuItems.Add(new MenuItem

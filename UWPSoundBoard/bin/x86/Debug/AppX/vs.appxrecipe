@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-14T05:31:48.239</Modified>
+      <Modified>2020-08-15T06:37:51.716</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.exe">
       <PackagePath>entrypoint\UWPSoundBoard.exe</PackagePath>
-      <Modified>2020-08-14T05:31:47.758</Modified>
+      <Modified>2020-08-15T06:35:42.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,55 +46,187 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-19T01:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-08-12T21:37:44.482</Modified>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Animals\Cat.wav">
+      <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Animals\Cow.wav">
+      <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Cartoons\Gun.wav">
+      <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Cartoons\Spring.wav">
+      <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Taunts\Clock.wav">
+      <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Taunts\LOL.wav">
+      <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Warnings\Ship.wav">
+      <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Audio\Warnings\Siren.wav">
+      <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
+      <Modified>2020-08-15T06:33:20.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Icons\animals.png">
+      <PackagePath>Assets\Icons\animals.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Icons\cartoon.png">
+      <PackagePath>Assets\Icons\cartoon.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Icons\taunt.png">
+      <PackagePath>Assets\Icons\taunt.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Icons\warning.png">
+      <PackagePath>Assets\Icons\warning.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Animals\Cat.png">
+      <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Animals\Cow.png">
+      <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Cartoons\Gun.png">
+      <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Cartoons\Spring.png">
+      <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Taunts\Clock.png">
+      <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Taunts\LOL.png">
+      <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Warnings\Ship.png">
+      <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Images\Warnings\Siren.png">
+      <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\1240x1240.png">
+      <PackagePath>Assets\PackageAppXManifest\1240x1240.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\1240x600.png">
+      <PackagePath>Assets\PackageAppXManifest\1240x600.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\24x24-large.png">
+      <PackagePath>Assets\PackageAppXManifest\24x24-large.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\24x24.png">
+      <PackagePath>Assets\PackageAppXManifest\24x24.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\300x300.png">
+      <PackagePath>Assets\PackageAppXManifest\300x300.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\310x310.png">
+      <PackagePath>Assets\PackageAppXManifest\310x310.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\50x50-large.png">
+      <PackagePath>Assets\PackageAppXManifest\50x50-large.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\50x50.png">
+      <PackagePath>Assets\PackageAppXManifest\50x50.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\620x300.png">
+      <PackagePath>Assets\PackageAppXManifest\620x300.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71-large.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71-large.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\71x71.png">
+      <PackagePath>Assets\PackageAppXManifest\71x71.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88-large.png">
+      <PackagePath>Assets\PackageAppXManifest\88x88-large.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\PackageAppXManifest\88x88.png">
+      <PackagePath>Assets\PackageAppXManifest\88x88.png</PackagePath>
+      <Modified>2020-08-15T06:33:20.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-17T06:01:15.130</Modified>
+      <Modified>2020-08-15T06:33:20.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-08-15T06:33:20.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\UWPSoundBoard.xr.xml">
       <PackagePath>UWPSoundBoard.xr.xml</PackagePath>
-      <Modified>2020-08-13T23:10:21.395</Modified>
+      <Modified>2020-08-15T06:33:56.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-14T05:31:47.634</Modified>
+      <Modified>2020-08-15T06:35:42.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-14T05:31:47.634</Modified>
+      <Modified>2020-08-15T06:35:42.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +234,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-14T05:31:47.848</Modified>
+      <Modified>2020-08-15T06:37:51.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\UWPSoundBoard\UWPSoundBoard\bin\x86\Debug\Core\UWPSoundBoard.exe">
       <PackagePath>UWPSoundBoard.exe</PackagePath>
-      <Modified>2020-08-14T05:31:48.235</Modified>
+      <Modified>2020-08-15T06:37:51.710</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
