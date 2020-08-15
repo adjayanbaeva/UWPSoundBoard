@@ -25,11 +25,34 @@ namespace UWPSoundBoard
     public sealed partial class MainPage : Page
     {
         private ObservableCollection<Sound> sounds;
+        private List<MenuItem> menuItems;
         public MainPage()
         {
             this.InitializeComponent();
             sounds = new ObservableCollection<Sound>();
             SoundManager.GetAllSounds(sounds);
+
+            //Load the pane
+            menuItems.Add(new MenuItem
+            {
+                IconFile = "Assets/Icons/animals.png",
+                Category = SoundCategory.Animals
+            });
+            menuItems.Add(new MenuItem
+            {
+                IconFile = "Assets/Icons/cartoon.png",
+                Category = SoundCategory.Cartoons
+            });
+            menuItems.Add(new MenuItem
+            {
+                IconFile = "Assets/Icons/taunt.png",
+                Category = SoundCategory.Taunts
+            });
+            menuItems.Add(new MenuItem
+            {
+                IconFile = "Assets/Icons/warning.png",
+                Category = SoundCategory.Warnings
+            });
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
