@@ -64,6 +64,10 @@ namespace UWPSoundBoard
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            SoundManager.GetAllSounds(sounds);
+            CategoryTextBlock.Text = "All Sounds";
+            MenuItemsListView.SelectedItem = null;
+            BackButton.Visibility = Visibility.Collapsed;
 
         }
 
@@ -72,7 +76,7 @@ namespace UWPSoundBoard
             var menuItem = (MenuItem)e.ClickedItem;
             CategoryTextBlock.Text = menuItem.Category.ToString();
             SoundManager.GetSoundByCategory(sounds, menuItem.Category);
-
+            BackButton.Visibility = Visibility.Visible;
         }
 
         private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
