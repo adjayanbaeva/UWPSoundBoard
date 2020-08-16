@@ -69,6 +69,9 @@ namespace UWPSoundBoard
 
         private void MenuItemsListView_ItemClick(object sender, ItemClickEventArgs e)
         {
+            var menuItem = (MenuItem)e.ClickedItem;
+            CategoryTextBlock.Text = menuItem.Category.ToString();
+            SoundManager.GetSoundByCategory(sounds, menuItem.Category);
 
         }
 
